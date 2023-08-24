@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PopUps.MainPage">
+
+    <StackLayout>
+        <Button Text="Alert PopUp" Clicked="Button1_Clicked"/>
+        <Button Text="Question Alert PopUp" Clicked="Button2_Clicked"/>
+        <Label x:Name="lblButton" Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36" />
+        <Button Text="Alert Action Sheet" Clicked="Button3_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
