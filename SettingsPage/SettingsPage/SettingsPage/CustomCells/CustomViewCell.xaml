@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SettingsPage.CustomCells.CustomViewCell">
+  <ViewCell.View>
+      <StackLayout Orientation="Horizontal">
+            <Label x:Name="lblText" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center" VerticalOptions="StartAndExpand"/>
+            <Label x:Name="lblDetail" FontSize="Small" VerticalTextAlignment="Center"/>
+            <Image Source="Next.png" Aspect="AspectFill" WidthRequest="15" Opacity="0.3"></Image>
+        </StackLayout>
+  </ViewCell.View>
+</ViewCell>
